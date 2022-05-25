@@ -56,6 +56,7 @@
     <Compile Include="AppDBContext.cs" />
     <Compile Include="ClsEmployee.cs" />
     <Compile Include="ClsSkill.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
