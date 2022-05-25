@@ -10,6 +10,7 @@ namespace EFFluentAPIWithSeedingDataDemo
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
