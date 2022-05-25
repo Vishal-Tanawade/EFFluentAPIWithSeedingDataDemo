@@ -56,6 +56,10 @@
     <Compile Include="AppDBContext.cs" />
     <Compile Include="ClsEmployee.cs" />
     <Compile Include="ClsSkill.cs" />
+    <Compile Include="Migrations\202205251111525_initialization.cs" />
+    <Compile Include="Migrations\202205251111525_initialization.designer.cs">
+      <DependentUpon>202205251111525_initialization.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,6 +67,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202205251111525_initialization.resx">
+      <DependentUpon>202205251111525_initialization.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
